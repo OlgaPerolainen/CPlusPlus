@@ -17,26 +17,32 @@ int main()
     std::cout << "Введите количество элементов массива: ";
     std::cin >> n;
     int* array = new int[n];
-
+    
+    // Заполенение массива
     fillArray(n, array);
 
+    // Открытие потока для записи
     std::ofstream out("arrays", std::ios::out | std::ios::binary);
     if (!out) {
         std::cout << "Файл открыть невозможно\n";
         return 1;
     }
-
+    
+    // Запись исходного массива
     out << "Исходный массив: ";
     for (int i = 0; i < n; i++)
         out << array[i] << " ";
     out << "\n";
 
+    // Сортировка массива
     sortArray(n, array);
 
+    // Запись отсортированного массива
     out << "Отсортированный массив: ";
     for (int i = 0; i < n; i++)
         out << array[i] << " ";
     
+    // Закрытие файлового потока
     out.close();
 
     printArray(n, array);
