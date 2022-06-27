@@ -21,7 +21,7 @@ int main()
     // Заполенение массива
     fillArray(n, array);
 
-    // Открытие потока для записи
+    // Открытие файлового потока
     std::ofstream out("arrays", std::ios::out | std::ios::binary);
     if (!out) {
         std::cout << "Файл открыть невозможно\n";
