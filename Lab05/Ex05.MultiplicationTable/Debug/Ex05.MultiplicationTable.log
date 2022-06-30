@@ -1,0 +1,5 @@
+﻿  Ex05.MultiplicationTable.cpp
+C:\Users\wwwol\Downloads\Программирование\Курс\C++\Labs\Lab05\Ex05.MultiplicationTable\Ex05.MultiplicationTable.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\wwwol\Downloads\Программирование\Курс\C++\Labs\Lab05\Ex05.MultiplicationTable\Ex05.MultiplicationTable.cpp(44,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\wwwol\Downloads\Программирование\Курс\C++\Labs\Lab05\Ex05.MultiplicationTable\Ex05.MultiplicationTable.cpp(49,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Ex05.MultiplicationTable.vcxproj -> C:\Users\wwwol\Downloads\Программирование\Курс\C++\Labs\Lab05\Ex05.MultiplicationTable\Debug\Ex05.MultiplicationTable.exe
