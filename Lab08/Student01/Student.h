@@ -1,0 +1,32 @@
+#pragma once
+#include <string>
+
+class Student
+{
+public:
+
+	Student(std::string, std::string);
+
+	void save();                  // Запись данных о студенте в файл
+
+	void set_name(std::string);  // Установка имени студента
+	std::string get_name();      // Получение имени студента
+	
+	void set_last_name(std::string); // Установка фамилии студента
+	std::string get_last_name();	 // Получение фамилии студента
+
+	void set_scores(int[]);          // Установка промежуточных оценок
+
+	void set_average_score(double);	// Установка среднего балла
+	double get_average_score(); 	// Получение среднего балла
+
+	~Student();                     // Деструктор класса Student
+
+
+private:
+	int scores[5]; // Промежуточные оценки
+	double average_score; // Средний балл
+	std::string name; // Имя
+	std::string last_name; // Фамилия
+};
+
