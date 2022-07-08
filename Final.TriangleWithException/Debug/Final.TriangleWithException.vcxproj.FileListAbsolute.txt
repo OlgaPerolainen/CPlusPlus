@@ -1,1 +1,0 @@
-C:\Users\wwwol\Downloads\Программирование\Курс\C++\Labs\Lab08\Final.TriangleWithException\Debug\Final.TriangleWithException.exe
